@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+header .navbar ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+header .navbar ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header .navbar ul li #eco{
+    font-weight: bolder;
+}
+
+header .buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header .buttons .signin {
+    color: black;
+    font-size: 1rem;
+    border: none;
+    background: transparent;
+    padding-right: 20px;
+}
+
+header .buttons p {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+header .buttons .signup {
+    padding: 15px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    opacity: .8;
+    background: green;
+    color: white;
+}
+
+.last {
+    background: rgb(236, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-top: 80px;
+    padding-bottom: 0;
+    gap: 40px;
+}
+
+.last .first-text img {
+    min-width: 140px;
+}
+
+.last .first-text p {
+    font-size: 1.6rem;
+    margin: 30px 0;
+}
+
+.last button {
+    background: green;
+    color: white;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 25px;
+}
+
+.last .second-text {
+    background: green;
+    opacity: .8;
+    padding: 80px 90px;
+    border-top-left-radius: 150px;
+}
+
+.last .second-text .contacts {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 600px;
+}
+
+.last .second-text .contacts .texth {
+    color: white;
+    padding: 50p;
+}
+
+.last .second-text .contacts .icons {
+    color: white;
+}

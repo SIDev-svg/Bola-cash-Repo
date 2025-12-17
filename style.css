@@ -122,10 +122,8 @@ header .buttons .signup {
 .boxes .bx2,
 .boxes .bx3 {
     box-shadow: 0 0 5px green;
-    align-items: center;
     border-radius: 20px;
     padding: 20px;
-    justify-items: center;
 }
 
 .boxes .bx1 h3,
