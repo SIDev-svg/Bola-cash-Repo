@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(about/istockphoto-1425461534-170667a\ 1.png);
+    opacity: 1;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(about/istockphoto-1425461534-170667a\ 1.png);
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 400px;
+}
+
+header .head{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.473);
+    margin-top: 30px;
+    padding: 10px 110px;
+}
+
+header .navbar ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+header .navbar ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header .navbar ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+header .navbar ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header .navbar ul li #about{
+    font-weight: bolder;
+}
+
+
+header .buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header .buttons .signin {
+    color: black;
+    font-size: 1rem;
+    border: none;
+    background: transparent;
+    padding-right: 20px;
+}
+
+header .buttons p {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+header .buttons .signup {
+    padding: 15px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    opacity: .8;
+    background: green;
+    color: white;
+}
+
+header .text{
+    align-items: center;
+    padding: 150px 100px;
+}
+
+header .text h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+header .text h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+header .text p{
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.second-hero{
+    display: flex;
+    align-items: center;
+}
+
+.third-hero{
+    display: flex;
+    align-items: center;
+    border-bottom: .5px solid green;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    margin: 20px 110px 20px 110px;
+}
+
+.boxes .bx1,
+.boxes .bx2,
+.boxes .bx3 {
+    box-shadow: 0 0 5px green;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.boxes .bx1 h3,
+.boxes .bx2 h3,
+.boxes .bx3 h3 {
+    font-size: 15px;
+    margin: 18px 0;
+
+}
+
+.boxes .bx1 p,
+.boxes .bx2 p,
+.boxes .bx3 p {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(59, 57, 57);
+}
+
+.second-boxes{
+    display: flex;
+    gap: 20px;
+    margin: 20px 110px 20px 110px;
+}
+
+.second-boxes .bx1,
+.second-boxes .bx2,
+.second-boxes .bx3 {
+    box-shadow: 0 0 5px green;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.second-boxes .bx1 h3,
+.second-boxes .bx2 h3,
+.second-boxes .bx3 h3 {
+    font-size: 15px;
+    margin: 18px 0;
+
+}
+
+.second-boxes .bx1 p,
+.second-boxes .bx2 p,
+.second-boxes .bx3 p {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(59, 57, 57);
+}
+
+.fifth-hero{
+    margin: 20px 100px;
+}
+
+.fifth-hero .texts{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.fifth-hero .texts h1{
+    font-size: 25px;
+}
+
+.last {
+    background: rgb(236, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-top: 80px;
+    padding-bottom: 0;
+    gap: 40px;
+}
+
+.last .first-text img {
+    min-width: 140px;
+}
+
+.last .first-text p {
+    font-size: 1.6rem;
+    margin: 30px 0;
+}
+
+.last button {
+    background: green;
+    color: white;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 25px;
+}
+
+.last .second-text {
+    background: green;
+    opacity: .8;
+    padding: 80px 90px;
+    border-top-left-radius: 150px;
+}
+
+.last .second-text .contacts {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 600px;
+}
+
+.last .second-text .contacts .texth {
+    color: white;
+    padding: 50p;
+}
+
+.last .second-text .contacts .icons {
+    color: white;
+    font-size: .8rem;
+}
+
+.last .copyright{
+    margin-top: 80px;
+    font-size: 12px;
+}
